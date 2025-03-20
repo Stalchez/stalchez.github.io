@@ -12,6 +12,6 @@ int main(){
 	printf("Enter Popularity and Size respectively:");
 	scanf("%d%d",&popularity,&size);
 	int a = computeHomeValue(popularity,size);
-	printf("%d",a);
+	printf("Here is your home value: %d",a);
 	return 0;
 }
