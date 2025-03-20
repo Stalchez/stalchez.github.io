@@ -14,5 +14,5 @@ void computeHomeValue(void){
 	printf("Enter your popularity and size respectively:");
 	scanf("%d%d",&popularity,&size);
 	homeValue=(pow(popularity,3)+pow(size,2))*10000;
-	printf("%d",homeValue);
+	printf("Here is your home value: %d",homeValue);
 }
