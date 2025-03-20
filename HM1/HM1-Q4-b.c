@@ -5,7 +5,7 @@ void computeHomeValue(void);
 
 int main(void){
     computeHomeValue();
-	return 0;
+    return 0;
 }
 void computeHomeValue(void){
 	int popularity;
